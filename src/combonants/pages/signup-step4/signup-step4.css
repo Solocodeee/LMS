@@ -1,0 +1,662 @@
+/* =========================
+   Page
+========================= */
+
+.booking-page {
+  min-height: 100vh;
+  width: 100%;
+
+  background: #f4f7f8;
+
+  direction: rtl;
+
+  padding: 35px 30px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   Container
+========================= */
+
+.booking-container {
+  width: 100%;
+  max-width: 900px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================
+   Progress
+========================= */
+
+.booking-progress {
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.booking-progress-top {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+
+  font-size: 11px;
+
+  color: #6b7280;
+}
+
+.booking-progress-label {
+  color: #00858b;
+
+  font-weight: 600;
+}
+
+.booking-progress-bar {
+  width: 100%;
+
+  height: 5px;
+
+  background: #dce3e5;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.booking-progress-fill {
+  width: 100%;
+
+  height: 100%;
+
+  background: #00858b;
+
+  border-radius: 20px;
+}
+
+
+/* =========================
+   Layout
+========================= */
+
+.booking-layout {
+  display: grid;
+
+  grid-template-columns: 1fr 300px;
+
+  gap: 20px;
+
+  direction: ltr;
+
+  align-items: start;
+}
+
+
+/* =========================
+   Main Booking Card
+========================= */
+
+.booking-card {
+  direction: rtl;
+
+  background: #ffffff;
+
+  border: 1px solid #d8e0e2;
+
+  border-radius: 15px;
+
+  padding: 25px 20px;
+
+  box-sizing: border-box;
+}
+
+.booking-card h1 {
+  margin: 0 0 20px;
+
+  color: #111827;
+
+  font-size: 18px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   Days
+========================= */
+
+.days-list {
+  display: grid;
+
+  grid-template-columns: repeat(7, 1fr);
+
+  gap: 7px;
+}
+
+.day-button {
+  height: 65px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  background: #ffffff;
+
+  border: 1px solid #d5dde0;
+
+  border-radius: 9px;
+
+  color: #68747a;
+
+  font-family: inherit;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.day-button:hover {
+  border-color: #00858b;
+}
+
+.day-button .day-name {
+  font-size: 9px;
+}
+
+.day-button strong {
+  font-size: 16px;
+
+  color: #111827;
+}
+
+.day-button.selected {
+  background: #00858b;
+
+  border-color: #00858b;
+
+  color: #ffffff;
+}
+
+.day-button.selected strong {
+  color: #ffffff;
+}
+
+
+/* =========================
+   Divider
+========================= */
+
+.booking-divider {
+  width: 100%;
+
+  height: 1px;
+
+  background: #e4e9eb;
+
+  margin: 17px 0;
+}
+
+
+/* =========================
+   Times
+========================= */
+
+.times-section h2 {
+  margin: 0 0 5px;
+
+  color: #111827;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+.timezone {
+  margin: 0 0 15px;
+
+  color: #8b9498;
+
+  font-size: 9px;
+}
+
+
+/* =========================
+   Times Grid
+========================= */
+
+.times-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 8px;
+}
+
+.time-button {
+  height: 42px;
+
+  background: #ffffff;
+
+  border: 1px solid #d5dde0;
+
+  border-radius: 8px;
+
+  color: #374151;
+
+  font-family: inherit;
+
+  font-size: 11px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.time-button:hover:not(:disabled) {
+  border-color: #00858b;
+
+  color: #00858b;
+}
+
+.time-button.selected {
+  background: #00858b;
+
+  border-color: #00858b;
+
+  color: #ffffff;
+}
+
+.time-button:disabled {
+  background: #e7ecee;
+
+  color: #9ba4a8;
+
+  text-decoration: line-through;
+
+  cursor: not-allowed;
+}
+
+
+/* =========================
+   Note
+========================= */
+
+.booking-note {
+  margin: 14px 0 0;
+
+  color: #8b9498;
+
+  font-size: 9px;
+
+  text-align: right;
+}
+
+.booking-note span {
+  color: #d89a32;
+
+  font-size: 15px;
+
+  vertical-align: middle;
+
+  margin-left: 5px;
+}
+
+
+/* =========================
+   Summary
+========================= */
+
+.booking-summary {
+  direction: rtl;
+
+  background: #ffffff;
+
+  border: 1px solid #d8e0e2;
+
+  border-radius: 15px;
+
+  padding: 22px 18px;
+
+  box-sizing: border-box;
+}
+
+.booking-summary h2 {
+  margin: 0 0 18px;
+
+  color: #111827;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   Summary Header
+========================= */
+
+.summary-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.summary-icon {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background: #dff7f8;
+
+  color: #00858b;
+
+  border-radius: 9px;
+
+  font-size: 16px;
+
+  font-weight: 700;
+}
+
+.summary-header h3 {
+  margin: 0 0 5px;
+
+  color: #111827;
+
+  font-size: 13px;
+}
+
+.summary-header p {
+  margin: 0;
+
+  color: #8b9498;
+
+  font-size: 9px;
+}
+
+
+/* =========================
+   Summary Divider
+========================= */
+
+.summary-divider {
+  width: 100%;
+
+  height: 1px;
+
+  background: #e4e9eb;
+
+  margin: 17px 0;
+}
+
+
+/* =========================
+   Selected Appointment
+========================= */
+
+.summary-selected > span {
+  display: block;
+
+  margin-bottom: 9px;
+
+  color: #8b9498;
+
+  font-size: 10px;
+}
+
+.selected-appointment {
+  background: #f1f5f6;
+
+  border-radius: 9px;
+
+  padding: 13px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.selected-appointment strong {
+  color: #374151;
+
+  font-size: 12px;
+}
+
+.selected-appointment span {
+  color: #00858b;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+.no-date {
+  background: #f1f5f6;
+
+  border-radius: 9px;
+
+  padding: 18px 12px;
+
+  color: #7d898d;
+
+  font-size: 11px;
+
+  text-align: center;
+}
+
+
+/* =========================
+   Meeting
+========================= */
+
+.meeting-info {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #7b8589;
+
+  font-size: 9px;
+}
+
+.meeting-icon {
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #dff7f8;
+
+  color: #00858b;
+
+  border-radius: 5px;
+
+  font-size: 8px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   Confirm
+========================= */
+
+.confirm-booking-btn {
+  width: 100%;
+
+  height: 45px;
+
+  margin-top: 18px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #00858b;
+
+  color: #ffffff;
+
+  font-family: inherit;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.confirm-booking-btn:hover:not(:disabled) {
+  background: #00747a;
+}
+
+.confirm-booking-btn.disabled,
+.confirm-booking-btn:disabled {
+  background: #e1e7e9;
+
+  color: #9ba4a8;
+
+  cursor: not-allowed;
+}
+
+
+/* =========================
+   Back
+========================= */
+
+.booking-back {
+  width: 100%;
+
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 8px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #d5dde0;
+
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  color: #374151;
+
+  text-decoration: none;
+
+  font-size: 11px;
+
+  transition: 0.2s ease;
+}
+
+.booking-back:hover {
+  background: #f8fafb;
+}
+
+
+/* =========================
+   Reschedule
+========================= */
+
+.reschedule-text {
+  margin: 14px 0 0;
+
+  color: #8b9498;
+
+  font-size: 8px;
+
+  text-align: center;
+
+  line-height: 1.7;
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 800px) {
+
+  .booking-page {
+    padding: 30px 20px;
+  }
+
+  .booking-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-summary {
+    order: 2;
+  }
+
+  .booking-card {
+    order: 1;
+  }
+
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 600px) {
+
+  .booking-page {
+    padding: 25px 15px;
+  }
+
+  .booking-progress-top {
+    font-size: 10px;
+  }
+
+  .booking-card {
+    padding: 20px 15px;
+  }
+
+  .booking-card h1 {
+    font-size: 17px;
+  }
+
+  .days-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .day-button {
+    height: 58px;
+  }
+
+  .times-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}

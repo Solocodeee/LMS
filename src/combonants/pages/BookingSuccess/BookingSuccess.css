@@ -1,0 +1,861 @@
+/* =========================
+   Page
+========================= */
+
+.success-page {
+  min-height: 100vh;
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 28px 20px;
+
+  background: #f4f7f8;
+
+  direction: rtl;
+}
+
+
+/* =========================
+   Container
+========================= */
+
+.success-container {
+  width: 100%;
+  max-width: 675px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================
+   Alert
+========================= */
+
+.success-alert {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  padding: 13px 15px;
+
+  margin-bottom: 16px;
+
+  background: #e0f7e5;
+
+  border: 1px solid #b6ddbe;
+
+  border-radius: 10px;
+
+  color: #17652a;
+
+  font-size: 10px;
+}
+
+.success-alert span {
+  font-size: 13px;
+}
+
+
+/* =========================
+   Layout
+========================= */
+
+.success-layout {
+  display: grid;
+
+  grid-template-columns: 253px 1fr;
+
+  gap: 16px;
+
+  align-items: start;
+}
+
+
+/* =========================
+   Side
+========================= */
+
+.success-side {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+
+/* =========================
+   Side Boxes
+========================= */
+
+.success-box {
+  box-sizing: border-box;
+
+  padding: 17px;
+
+  border-radius: 12px;
+
+  border: 1px solid #d7e0e3;
+
+  background: #ffffff;
+}
+
+.success-box h2 {
+  margin: 0 0 13px;
+
+  color: #111827;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   Preparation
+========================= */
+
+.preparation-box ul {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 11px;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.preparation-box li {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #5f6b70;
+
+  font-size: 10px;
+}
+
+.preparation-box li span {
+  color: #00858b;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   Reminder
+========================= */
+
+.reminder-box {
+  background: #dff7f8;
+
+  border-color: #b8e0e2;
+}
+
+.reminder-box h2 {
+  color: #00777d;
+}
+
+.reminder-box p {
+  margin: 0;
+
+  color: #5e7074;
+
+  font-size: 9px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================
+   Booking Card
+========================= */
+
+.success-booking-card {
+  box-sizing: border-box;
+
+  padding: 20px;
+
+  background: #ffffff;
+
+  border: 1px solid #d7e0e3;
+
+  border-radius: 13px;
+}
+
+
+/* =========================
+   Booking Header
+========================= */
+
+.success-booking-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+}
+
+.success-booking-icon {
+  width: 41px;
+  height: 41px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background: #dff7f8;
+
+  color: #00858b;
+
+  border-radius: 10px;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+.success-booking-header > div:nth-child(2) {
+  flex: 1;
+}
+
+.success-booking-header h1 {
+  margin: 0 0 5px;
+
+  color: #111827;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+.success-booking-header p {
+  margin: 0;
+
+  color: #7b8589;
+
+  font-size: 9px;
+}
+
+
+/* =========================
+   Badge
+========================= */
+
+.confirmed-badge {
+  padding: 6px 10px;
+
+  background: #ffe9c7;
+
+  color: #98621f;
+
+  border-radius: 20px;
+
+  font-size: 9px;
+
+  white-space: nowrap;
+}
+
+
+/* =========================
+   Divider
+========================= */
+
+.success-divider {
+  height: 1px;
+
+  margin: 16px 0;
+
+  background: #e3e8ea;
+}
+
+
+/* =========================
+   Meeting
+========================= */
+
+.success-meeting h3 {
+  margin: 0 0 9px;
+
+  color: #111827;
+
+  font-size: 11px;
+}
+
+
+/* =========================
+   Meet Link
+========================= */
+
+.meet-link-box {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  box-sizing: border-box;
+
+  padding: 9px;
+
+  background: #f3f7f8;
+
+  border: 1px solid #d9e2e4;
+
+  border-radius: 9px;
+}
+
+.meet-small-icon {
+  width: 27px;
+  height: 27px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #dff7f8;
+
+  color: #00858b;
+
+  border-radius: 6px;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+.meet-url {
+  flex: 1;
+
+  direction: ltr;
+
+  text-align: left;
+
+  color: #617076;
+
+  font-size: 9px;
+}
+
+.copy-btn {
+  height: 29px;
+
+  padding: 0 11px;
+
+  border: 1px solid #b9d5d7;
+
+  border-radius: 6px;
+
+  background: #ffffff;
+
+  color: #00858b;
+
+  font-family: inherit;
+
+  font-size: 9px;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   Meeting Buttons
+========================= */
+
+.meeting-buttons {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 9px;
+
+  margin-top: 11px;
+}
+
+.join-meet-btn,
+.calendar-btn {
+  height: 38px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  border-radius: 8px;
+
+  font-family: inherit;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.join-meet-btn {
+  background: #e6ecee;
+
+  color: #738085;
+}
+
+.calendar-btn {
+  border: 1px solid #a8d0d3;
+
+  background: #ffffff;
+
+  color: #007d84;
+}
+
+.meeting-note {
+  margin: 10px 0 0;
+
+  color: #929b9f;
+
+  font-size: 8px;
+
+  text-align: center;
+}
+
+
+/* =========================
+   Actions
+========================= */
+
+.success-actions {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 8px;
+}
+
+.reschedule-btn,
+.cancel-btn {
+  height: 39px;
+
+  border-radius: 8px;
+
+  font-family: inherit;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.reschedule-btn {
+  border: 1px solid #00858b;
+
+  background: #ffffff;
+
+  color: #00858b;
+}
+
+.cancel-btn {
+  border: 1px solid #d8dfe1;
+
+  background: #ffffff;
+
+  color: #667176;
+}
+
+
+/* =========================
+   Hover
+========================= */
+
+.reschedule-btn:hover {
+  background: #f0fafb;
+}
+
+.cancel-btn:hover {
+  background: #f7f9fa;
+}
+
+.copy-btn:hover {
+  background: #f0fafb;
+}
+
+/* =========================
+   Cancel Modal Overlay
+========================= */
+
+.cancel-modal-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 99999;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  background: rgba(15, 23, 27, 0.48);
+
+  backdrop-filter: blur(4px);
+
+  direction: rtl;
+}
+
+
+/* =========================
+   Cancel Modal
+========================= */
+
+.cancel-modal {
+  width: 100%;
+
+  max-width: 420px;
+
+  box-sizing: border-box;
+
+  padding: 30px 28px;
+
+  background: #ffffff;
+
+  border: 1px solid #e1e7e9;
+
+  border-radius: 18px;
+
+  text-align: center;
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.2);
+
+  animation: cancelModalIn 0.2s ease;
+}
+
+
+/* =========================
+   Animation
+========================= */
+
+@keyframes cancelModalIn {
+
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+}
+
+
+/* =========================
+   Warning Icon
+========================= */
+
+.cancel-modal-icon {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 15px;
+
+  background: #fff3e5;
+
+  color: #b66a19;
+
+  border: 1px solid #f2dfbf;
+
+  border-radius: 50%;
+
+  font-size: 23px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   Title
+========================= */
+
+.cancel-modal h2 {
+  margin: 0 0 9px;
+
+  color: #111827;
+
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   Description
+========================= */
+
+.cancel-modal > p {
+  margin: 0 auto 17px;
+
+  max-width: 320px;
+
+  color: #6b7280;
+
+  font-size: 11px;
+
+  line-height: 1.9;
+}
+
+
+/* =========================
+   Booking Details
+========================= */
+
+.cancel-modal-details {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+
+  margin-bottom: 20px;
+
+  padding: 13px;
+
+  background: #f7f9fa;
+
+  border: 1px solid #e1e7e9;
+
+  border-radius: 10px;
+}
+
+.cancel-modal-details strong {
+  color: #1f2933;
+
+  font-size: 11px;
+}
+
+.cancel-modal-details span {
+  color: #8a9498;
+
+  font-size: 9px;
+}
+
+
+/* =========================
+   Actions
+========================= */
+
+.cancel-modal-actions {
+  display: flex;
+
+  gap: 9px;
+}
+
+
+/* Cancel */
+
+.cancel-confirm-btn {
+  flex: 1;
+
+  height: 43px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #c94b4b;
+
+  color: #ffffff;
+
+  font-family: inherit;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.cancel-confirm-btn:hover {
+  background: #b83f3f;
+}
+
+
+/* Keep */
+
+.cancel-keep-btn {
+  flex: 1;
+
+  height: 43px;
+
+  border: 1px solid #d5dde0;
+
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  color: #374151;
+
+  font-family: inherit;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.cancel-keep-btn:hover {
+  background: #f7f9fa;
+}
+
+
+/* =========================
+   Cancellation Success
+========================= */
+
+.cancel-success-icon {
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 15px;
+
+  background: #e4f7f7;
+
+  color: #00858b;
+
+  border-radius: 50%;
+
+  font-size: 25px;
+
+  font-weight: 700;
+}
+
+
+/* =========================
+   New Appointment
+========================= */
+
+.new-appointment-btn {
+  width: 100%;
+
+  height: 44px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #00858b;
+
+  color: #ffffff;
+
+  font-family: inherit;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.new-appointment-btn:hover {
+  background: #00747a;
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 600px) {
+
+  .cancel-modal-overlay {
+    padding: 15px;
+  }
+
+  .cancel-modal {
+    max-width: 100%;
+
+    padding: 26px 20px;
+
+    border-radius: 15px;
+  }
+
+  .cancel-modal-actions {
+    flex-direction: column;
+  }
+
+  .cancel-confirm-btn,
+  .cancel-keep-btn {
+    width: 100%;
+  }
+
+}
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 650px) {
+
+  .success-page {
+    padding: 18px 12px;
+  }
+
+  .success-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .success-side {
+    order: 2;
+  }
+
+  .success-booking-card {
+    order: 1;
+  }
+
+  .meeting-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .success-alert {
+    font-size: 9px;
+  }
+}
